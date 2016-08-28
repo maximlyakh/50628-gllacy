@@ -7,35 +7,39 @@
   </head>
   <body>
   	<header class="main-header">
-  		<div class="index-logo">
-  			<img src="img/gllacy-logo.png" width="154" height="64" alt="Gllacy-Shop">
-  		</div>
-  		<nav class="main-navigation">
-  			<ul>
-  				<li>
-  					<a href="#">Каталог</a>
-  				</li>
-  				<li>
-  					<a href="#">Доставка и оплата</a>
-  				</li>
-  				<li>
-  					<a href="#">О Компании</a>
-  				</li>
-  			</ul>
-  		</nav>
-  		<div class="search">
-  			<input type="search" name="search">
-  			<button class="btn" type="submit">Поиск</button>
-  		</div>
-  		<div class="user-block">
-  			<a href="#">Вход</a>
-  		</div>
-  		<div class="basket">
-  			<span>Пусто</span>
+  		<div class="container clearfix">
+				<div class="index-logo">
+					<img src="img/gllacy-logo.png" width="154" height="64" alt="Gllacy-Shop">
+				</div>
+				<nav class="main-navigation">
+					<ul>
+						<li>
+							<a href="catalog.html">Каталог</a>
+						</li>
+						<li>
+							<a href="#">Доставка и оплата</a>
+						</li>
+						<li>
+							<a href="#">О Компании</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="user-information">
+					<div class="search">
+						<input type="search" name="search">
+						<button class="btn" type="submit">Поиск</button>
+					</div>
+					<div class="user-block">
+						<a href="#">Вход</a>
+					</div>
+					<div class="basket">
+						<span>Пусто</span>
+					</div>
+					<p class="time"> С 10 до 20,ежедневно<span>8 812 450-25-25</span></p>
+				</div>
   		</div>
   	</header>
   	<main class="container">
-  		<p> С 10 до 20,ежедневно<span>8 812 450-25-25</span></p>
   		<div class="special-promotion">
   			<div class="slider">
   				<input type="radio" name="toggle" checked>
@@ -45,39 +49,39 @@
   			<h1>Крем-брюле и пломбир с малиновым джемом</h1>
   			<button class="btn" type="submit">Давайте оба!</button>
   		</div>
-  		<section class="exclusive-promotion">
-  			<article>
+  		<section class="exclusive-promotion clearfix">
+  			<article class="exclusive-promotion-left">
   				<h2>Малинка даром!</h2>
   				<p>При покупке 2 кг любого фруктового мороженного,добавим в ваш заказ банку малинового варенья бесплатно.</p>
   				<a href="#">Хочу варенье!</a>
   			</article>
-  			<article>
+  			<article class="exclusive-promotion-right">
   				<h2>Шоколадки даром!</h2>
   				<p>При покупке 2 кг пломбира,добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
   				<a href="#">Хочу шоколадки!</a>
   			</article>
   		</section>
-  		<section class="hit-promotion">
+  		<section class="hit-promotion clearfix">
   			<article class="hit-promotion ice-item">
-  				<img src="img/hit-ice.jpg" width="267" height="267" alt="Сливочное">
+  				<img src="img/hit-ice.png" width="267" height="267" alt="Сливочное">
   				<b>310 /кг</b>
   				<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
   				<a href="#">Быстрый просмотр</a>
   			</article>
   			<article class="hit-promotion ice-item">
-  				<img src="img/hit-ice2.jpg" width="267" height="267" alt="Сливочно-кофейное">
+  				<img src="img/hit-ice2.png" width="267" height="267" alt="Сливочно-кофейное">
   				<b>380 /кг</b>
   				<p>Сливочно-кофейное с кусочками шоколада</p>
   				<a href="#">Быстрый просмотр</a>
   			</article>
   			<article class="hit-promotion ice-item">
-  				<img src="img/hit-ice3.jpg" width="267" height="267" alt="Сивочно-клубничное">
+  				<img src="img/hit-ice3.png" width="267" height="267" alt="Сивочно-клубничное">
   				<b>355 /кг</b>
   				<p>Сивочно-клубничное с присыпкой из белого шоколада</p>
   				<a href="#">Быстрый просмотр</a>
   			</article>
   			<article class="hit-promotion ice-item">
-  				<img src="img/hit-ice4.jpg" width="267" height="267" alt="Сливочное крем-брюле">
+  				<img src="img/hit-ice4.png" width="267" height="267" alt="Сливочное крем-брюле">
   				<b>415 /кг</b>
   				<p>Сливочное крем-брюле с карамельной подливкой</p>
   				<a href="#">Быстрый просмотр</a>
@@ -94,7 +98,7 @@
   			<p>Доставка нашего мороженого до заказчика осуществляется в специальном термопаке,который не дает мороженому растаять
   			в пути и позволяет сохранить превосходный вкус.</p>
   		</div>
-  		<div class="news-information">
+  		<div class="news-information clearfix">
   			<div class="blog">
   				<p>Новое в нашем блоге</p>
   				<a href="#">10 способов сервировки фруктовых щербетов к столу</a>
@@ -109,8 +113,8 @@
   			</div>
   		</div>
   		<div class="connect-with-us">
-  			<div class="road-map"></div>
-  			<div class="connect-popup">
+  			<div class="road-map">
+  				<div class="connect-popup">
   				Адрес главного офиса и<br>
   				офлайн магазина:<br>
   				<strong>ул.Большая Конюшенная<br>
@@ -120,9 +124,10 @@
   				(с 10 до 20 ежедневно)<br>
   				<a href="#">Форма обратной связи</a>
   			</div>
+  			</div>
   		</div>
   	</main>
-  	<footer class="main-footer">
+  	<footer class="main-footer clearfix">
   		<section class="social-button">
   			<a class="social-tw" href="#">Twitter</a>
   			<a class="social-inst" href="#">Instagram</a>

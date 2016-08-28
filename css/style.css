@@ -4,6 +4,7 @@ body {
 	color: #323232;
 	font-weight: normal;
 	font-family: "Roboto", "Arial", serif;
+	background: grey;
 }
 h1 {
 	font-size: 60px;
@@ -19,3 +20,133 @@ h2 {
 	font-weight: bold;
 	font-family: "Roboto", "Arial", serif;
 }
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.container {
+	width: 1146px;
+	margin: 0 auto;
+}
+.index-logo {
+	width: 154px;
+	float: left;
+}
+.main-navigation {
+	width: 410px;
+	float: left;
+	margin-left: 32px;
+}
+.user-information {
+	width: 267px;
+	float: right;
+}
+.special-promotion {
+	margin-top: 286px;
+}
+.slider {
+	width: 79px;
+	float:left;
+	margin-top: 166px;
+}
+.special-promotion h1 {
+	width: 670px;
+	margin: 0 auto;
+}
+.special-promotion button {
+	width: 280px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 27px;
+}
+.exclusive-promotion {
+	margin-top: 37px;
+}
+.exclusive-promotion-left {
+	width: 560px;
+	float: left;
+}
+.exclusive-promotion-right {
+	width: 560px;
+	float: right;
+}
+.hit-promotion {
+	margin-top: 41px;
+}
+.hit-promotion.ice-item {
+	width: 267px;
+	float: left;
+}
+.ice-item:nth-child(n+2) {
+	margin-left: 26px;
+}
+.about-company {
+	margin-top: 40px;
+}
+.news-information {
+	margin-top: 40px;
+}
+.blog {
+	width: 560px;
+	float: left;
+}
+.email-mailing {
+	width: 560px;
+	float: right;
+}
+.connect-with-us {
+	margin-top: 40px;
+}
+
+.road-map {
+	min-height: 430px;
+}
+.social-button {
+	width: 267px;
+	float: left;
+}
+.main-footer .container {
+	width: 560px;
+	margin-left: 26px;
+	float: left;
+}
+.footer-copyright {
+	width: 267px;
+	float: right;
+}
+
+/*catalog*/
+
+
+.breadcrumbs {
+	width: 267px;
+}
+.container h1 {
+	width: 560px;
+	margin-top: 10px;
+}
+.filter {
+	width: 879px;
+	margin-top: 37px;
+}
+.catalog {
+	margin-top: 34px;
+}
+.catalog-item.ice-item {
+	width: 267px;
+	float: left;
+	margin: 0;
+	min-height: 450px;
+}
+.pagination {
+	width: 267px;
+	float: right;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+
+
+
+
